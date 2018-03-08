@@ -421,9 +421,9 @@ typedef NS_ENUM(NSInteger, CellState) { kArchiveState, kInboxState };
 
     [self checkIfEmptyView];
 
-    dispatch_async(dispatch_get_main_queue(), ^{
-        [self settingsButtonPressed:nil];
-    });
+    //    dispatch_async(dispatch_get_main_queue(), ^{
+    //        [self settingsButtonPressed:nil];
+    //    });
 }
 
 - (void)viewWillDisappear:(BOOL)animated
